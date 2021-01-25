@@ -1,9 +1,20 @@
+[CmdletBinding()]
+param (
+    [Parameter()]
+    [String[]]
+    $SearchDomainList
+)
 [Diagnostics.CodeAnalysis.SuppressMessageAttribute('PSUserDeclaredVarsMoreThanAssignments', '', Scope = 'Function')]
 $PesterPreference = [PesterConfiguration]::Default
 $PesterPreference.Output.verbosity = 'Detailed'
 
 BeforeDiscovery {
+    if ($null -eq $SearchDomainList) {
     $SearchDomainList = (Get-Content .\CheckDomains.json | ConvertFrom-Json ).Domain 
+    }
+    else {
+        #$SearchDomainList = $SearchDomainList
+    }
 }
 Describe "DNS Test" {
     
