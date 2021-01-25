@@ -13,7 +13,7 @@ BeforeDiscovery {
     $SearchDomainList = (Get-Content .\CheckDomains.json | ConvertFrom-Json ).Domain 
     }
     else {
-        #$SearchDomainList = $SearchDomainList
+        $SearchDomainList = $SearchDomainList
     }
 }
 Describe "DNS Test" {
