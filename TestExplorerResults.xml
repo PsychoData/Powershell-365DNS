@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="1" errors="0" failures="0" not-run="9" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2021-01-24" time="18:07:53">
+  <environment machine-name="DESKTOP-JG25CC8" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition4" nunit-version="2.5.8.0" clr-version="Unknown" os-version="10.0.19042" user-domain="DESKTOP-JG25CC8" user="administrator2" cwd="C:\Users\administrator2\Documents\Powershell-365DNS" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.2819" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\administrator2\Documents\Powershell-365DNS\Authenticated.Tests.ps1" executed="True" result="Success" success="True" time="0.2819" asserts="0" description="C:\Users\administrator2\Documents\Powershell-365DNS\Authenticated.Tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Authenticated DNS Test" executed="True" result="Success" success="True" time="0.1409" asserts="0" description="Authenticated DNS Test">
+            <results>
+              <test-case description="SRV _sipFederationTLS" name="Authenticated DNS Test.SRV _sipFederationTLS" time="0.0556" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

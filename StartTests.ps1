@@ -1,0 +1,1 @@
+Invoke-Pester .\Authenticated.Tests.ps1
